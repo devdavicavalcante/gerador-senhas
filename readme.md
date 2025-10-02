@@ -37,9 +37,13 @@ Gerador de senhas com avaliação de força feito em **HTML**, **CSS** e **JavaS
 ## 🚀 Como usar
 
 **1**. Abra o arquivo `index.html` no seu navegador.
+
 **2**. Selecione as opções de caracteres que deseja incluir na senha.
+
 **3**. Defina o tamanho da senha.
+
 **4**. Clique em **Gerar** para criar a senha.
+
 **5**. Clique em **Copiar** para copiar a senha gerada para a área de transferência.
 
 ---
@@ -63,13 +67,13 @@ Gerador de senhas com avaliação de força feito em **HTML**, **CSS** e **JavaS
 ## 🤝 Contribuições
 
 Contribuições são sempre bem-vindas! Se você quiser melhorar este projeto, siga estes passos:
-**1**.Faça um fork do repositório.
+**1**. Faça um fork do repositório.
 
-**2**.Crie uma branch para a sua feature: 
+**2**. Crie uma branch para a sua feature: 
 ```
 git checkout -b minha-feature.
 ```
-**3**.Faça suas alterações e commits:
+**3**. Faça suas alterações e commits:
 ```
 git commit -m "Adicionando minha feature".
 ```
@@ -77,7 +81,7 @@ git commit -m "Adicionando minha feature".
 ```
 git push origin minha-feature.
 ```
-Abra um Pull Request.
+**5**. Abra um Pull Request.
 
 ---
 
@@ -86,8 +90,12 @@ Abra um Pull Request.
 - Implementar animações ou efeitos visuais para indicar a força da senha.
 - Criar versões em outros idiomas.
 
+---
+
 ## ✍🏼 Autor
 Davi Cavalcante
+
+---
 
 ## 📄 Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
