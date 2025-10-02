@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+
+    <!-- Link para o CSS externo -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <!-- ==============================
+         Cabeçalho com ícone e título
+         ============================== -->
+    <div style="text-align: center; margin-bottom: 20px;">
+        <!-- Ícone de cadeado acima do título -->
+        <img src="image/cadeado.png" alt="Cadeado" style="width:80px; display:block; margin:0 auto 10px auto;">
+        <!-- Título principal -->
+        <h1>Gerador de Senhas</h1>
+    </div>
+
+    <!-- ==============================
+         Card de opções (inputs e checkboxes)
+         ============================== -->
+    <div class="options-card">
+        <!-- Input para o tamanho da senha -->
+        <label for="length">Tamanho da senha:</label>
+        <input type="number" id="length" value="none" min="4" max="50">
+
+        <!-- Checkboxes para escolher os tipos de caracteres -->
+        <label><input type="checkbox" id="lowercase"> Letras minúsculas (a-z)</label><br>
+        <label><input type="checkbox" id="uppercase"> Letras maiúsculas (A-Z)</label><br>
+        <label><input type="checkbox" id="numbers"> Números (0-9)</label><br>
+        <label><input type="checkbox" id="symbols"> Símbolos (!@#$...)</label>
+    </div>
+
+    <!-- ==============================
+         Botões de ação (Gerar e Copiar)
+         ============================== -->
+    <div class="buttom-group">
+        <button onclick="generatePassword()">Gerar</button>
+        <button onclick="copyPassword()">Copiar</button>
+    </div>
+
+    <!-- ==============================
+         Card de resultado (senha gerada e força)
+         ============================== -->
+    <div class="result-card">
+        <p>
+            <strong>Senha:</strong>
+            <span id="result"></span>
+            <!-- Mensagem temporária quando a senha é copiada -->
+            <span id="message" style="display:none; color:green;margin-left:10px;">Copiada!</span>
+        </p>
+        <p>
+            <strong>Força da senha:</strong>
+            <span id="strength"></span>
+        </p>
+    </div>
+
+    <!-- ==============================
+         Script JS externo
+         ============================== -->
+    <script src="javascript/script.js" defer></script>
+
+</body>
+
+</html>
