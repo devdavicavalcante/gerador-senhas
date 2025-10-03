@@ -17,6 +17,13 @@ Gerador de senhas com avaliação de força feito em **HTML**, **CSS** e **JavaS
 *Exemplo de senha gerada e força da senha.*
 
 ---
+
+## 🌐 Demo Online
+Você pode testar o gerador de senhas diretamente no navegador:  
+[🔗 Acessar o site](https://devdavicavalcante.github.io/gerador-senhas/)
+
+---
+
 ## ⚙️ Funcionalidades
 
 - 🔹 Gerar senhas seguras com letras minúsculas, maiúsculas, números e símbolos.
