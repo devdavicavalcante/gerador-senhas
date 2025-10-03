@@ -77,7 +77,7 @@ git checkout -b minha-feature.
 ```
 git commit -m "Adicionando minha feature".
 ```
-**4**.Faça push para a sua branch: 
+**4**. Faça push para a sua branch: 
 ```
 git push origin minha-feature.
 ```
